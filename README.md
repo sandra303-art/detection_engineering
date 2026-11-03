@@ -13,8 +13,8 @@ Practice notes and examples for building, mapping and tuning detections, alongsi
 - [Suspicious scheduled task](detections/suspicious-scheduled-task.md)
 - [Suspicious sign-in (Entra ID)](detections/suspicious-signin-entra.md)
 
-### PowerShell tools
-- [Get-FileCheck](powershell/Get-FileCheck.ps1): returns a file's SHA256 hash and signature status for quick triage
+### Triage tools
+- [Get-FileCheck](triage-tools/Get-FileCheck.ps1): returns a file's SHA256 hash and signature status for quick triage
 
 ## Approach
 1. Start from an attacker behavior or technique
