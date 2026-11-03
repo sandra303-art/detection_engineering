@@ -4,7 +4,7 @@ Practice notes and examples for building, mapping and tuning detections, alongsi
 ## What's here
 - Detection ideas written up per behavior: what to look for, required log sources, logic, and likely false positives
 - MITRE ATT&CK mapping for each detection
-- PowerShell and Python scripts used for practice (in progress)
+- PowerShell and Python tools for endpoint triage and investigation
 
 ## Approach
 1. Start from an attacker behavior or technique
