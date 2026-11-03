@@ -6,6 +6,16 @@ Practice notes and examples for building, mapping and tuning detections, alongsi
 - MITRE ATT&CK mapping for each detection
 - PowerShell and Python tools for endpoint triage and investigation
 
+## Contents
+
+### Detections
+- [Encoded PowerShell](detections/encoded-powershell.md)
+- [Suspicious scheduled task](detections/suspicious-scheduled-task.md)
+- [Suspicious sign-in (Entra ID)](detections/suspicious-signin-entra.md)
+
+### PowerShell tools
+- [Get-FileCheck](powershell/Get-FileCheck.ps1): returns a file's SHA256 hash and signature status for quick triage
+
 ## Approach
 1. Start from an attacker behavior or technique
 2. Identify the logs that would show it
